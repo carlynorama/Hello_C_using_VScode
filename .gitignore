@@ -1,0 +1,12 @@
+.DS_Store
+
+hello
+/*.dSYM
+/.vscode
+
+
+
+# C/C++ Files object files 
+*.o 
+*.a 
+*.so
