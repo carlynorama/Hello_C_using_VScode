@@ -11,6 +11,7 @@ Project for learning how to configure VSCode to work with C
     - https://stackoverflow.com/questions/52770066/debugging-c-using-visual-studio-code-on-windows 
     - https://code.visualstudio.com/docs/editor/variables-reference
     - https://code.visualstudio.com/Docs/editor/tasks
+        - https://code.visualstudio.com/docs/editor/tasks#_custom-tasks
     - https://code.visualstudio.com/docs/editor/tasks-appendix
     - https://code.visualstudio.com/docs/cpp/config-mingw
 - About makefiles: 
