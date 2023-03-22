@@ -5,7 +5,7 @@ SOURCES=hello_world.c second_file.c
 OBJDIR=obj
 _OBJECTS=$(SOURCES:.c=.o)
 OBJECTS = $(patsubst %,$(OBJDIR)/%,$(_OBJECTS))
-EXECUTABLE=hello
+EXECUTABLE=hello_world
 DEST_DIR=bin
 
 
