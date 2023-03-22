@@ -52,6 +52,6 @@ clang hello_world.c second_file.c
 
 ---
 
-12) create a test makefile (see `makefile-test` rename as `makefile`), run `make` and `make clean` to confirm make is installed and working.
+12) create a test makefile (see `makefiles_for_testing/test`), run `make` and `make clean` to confirm make is installed and working.
 
-13) create simple makefile for 2 file project
+13) Get a real Makefile working

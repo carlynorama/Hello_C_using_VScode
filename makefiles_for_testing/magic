@@ -14,5 +14,7 @@ $(EXECUTABLE): $(OBJECTS)
 	$(CC) $(CFLAGS) $< -o $@
 
 # `make clean` removes .o files and compiled program
+# run even if there is a file called clean
+.PHONY: clean
 clean:
 	rm -f *.o $(EXECUTABLE)

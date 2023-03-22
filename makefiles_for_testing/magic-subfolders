@@ -18,6 +18,8 @@ $(OBJDIR)/%.o: %.c
 	$(CC) $(CFLAGS) $< -o $@
 
 # `make clean` removes contents of bin folder and any random .o files
+# run even if there is a file called clean
+.PHONY: clean
 clean:
 	rm -rf *.o
 	rm -rf $(DEST_DIR)/*

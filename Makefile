@@ -19,5 +19,5 @@ $(OBJDIR)/%.o: %.c
 
 # `make clean` removes contents of bin folder and any random .o files
 clean:
-	rm -rf *.o
-	rm -rf $(DEST_DIR)/*
+	rm -rf $(OBJDIR)/*.o
+	rm -rf $(DEST_DIR)/$(EXECUTABLE)
