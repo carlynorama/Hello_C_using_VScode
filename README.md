@@ -41,3 +41,4 @@ clang hello_world.c second_file.c
     A) in tasks.json change `"{$file}",` to `"hello_world.c", "second_file.c",` 
     B) OR add a make file. (later)
 10) F5 to start the process of making a launch.json? Sure. See video. 
+11) 
