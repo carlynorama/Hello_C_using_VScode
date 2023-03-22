@@ -10,6 +10,9 @@ Project for learning how to configure VSCode to work with C
     - Visual Studio Code for C/C++ on Linux (2021) https://www.youtube.com/watch?v=9pjBseGfEPU
     - https://stackoverflow.com/questions/52770066/debugging-c-using-visual-studio-code-on-windows 
     - https://code.visualstudio.com/docs/editor/variables-reference
+    - https://code.visualstudio.com/Docs/editor/tasks
+    - https://code.visualstudio.com/docs/editor/tasks-appendix
+    - https://code.visualstudio.com/docs/cpp/config-mingw
 - About makefiles: 
     - https://bytes.usc.edu/cs104/wiki/makefile/ 
     - https://cs.colby.edu/maxwell/courses/tutorials/maketutor/
@@ -57,4 +60,8 @@ clang hello_world.c second_file.c
 13) Get a real Makefile working
 
 14) Add a shell task to tasks.json, add it launch.json
+
+
+
+TODO: https://code.visualstudio.com/docs/cpp/cmake-linux
 
