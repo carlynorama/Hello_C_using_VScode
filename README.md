@@ -59,7 +59,7 @@ clang hello_world.c second_file.c
 
 13) Get a real Makefile working
 
-14) Add a shell task to tasks.json, add it launch.json
+14) Add a task to tasks.json, add it launch.json
 
 
 
