@@ -21,7 +21,7 @@
             "MIMode": "lldb",
             //added to compile before launch
             //also needs to match tasks.json
-            "preLaunchTask": "C/C++: clang build active file",
+            "preLaunchTask": "Build using make",
             
 
         }
