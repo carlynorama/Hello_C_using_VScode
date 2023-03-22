@@ -1,0 +1,7 @@
+# `make` or `make simple` will complile the files into output file after -o
+simple: hello_world.c second_file.c
+	clang hello_world.c second_file.c -o bin/hello_world
+
+# `make verbose` will complile the files with -g (debugging information) and -Wall (compiler warnings)	
+verbose: hello_world.c second_file.c
+	clang -g -Wall hello_world.c second_file.c  -o bin/hello_world
