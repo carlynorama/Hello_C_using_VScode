@@ -55,3 +55,6 @@ clang hello_world.c second_file.c
 12) create a test makefile (see `makefiles_for_testing/test`), run `make` and `make clean` to confirm make is installed and working.
 
 13) Get a real Makefile working
+
+14) Add a shell task to tasks.json, add it launch.json
+
