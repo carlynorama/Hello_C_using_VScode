@@ -1,0 +1,13 @@
+all: one two three
+one:
+	echo “create file one”
+	touch one
+two:
+	echo “create file two”
+	touch two
+three:
+	echo “create file three”
+	touch three
+clean:
+	echo “clean up files”
+	rm -f one two three

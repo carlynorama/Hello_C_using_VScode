@@ -45,3 +45,7 @@ clang hello_world.c second_file.c
 10) F5 to start the process of making a launch.json? Sure. See video.
 
 11) make some small edits to launch.json, especially `"preLaunchTask": "C/C++: clang build active file"`
+
+---
+
+12) create a test makefile (see `makefile-test` rename as `makefile`), run `make` and `make clean` to confirm make is installed and working.
