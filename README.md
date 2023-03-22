@@ -17,7 +17,7 @@ Project for learning how to configure VSCode to work with C
 - About makefiles: 
     - https://bytes.usc.edu/cs104/wiki/makefile/ 
     - https://cs.colby.edu/maxwell/courses/tutorials/maketutor/
-    - `make -p | less` to see all the pre defined vars
+    - `make -p` to see all the pre defined vars and implicit rules
 
 
 
