@@ -37,8 +37,11 @@ clang hello_world.c second_file.c
 ./a.out
 ```
 ... worked fine. Do I need to add a make file? 
+
 9) Yes. I need to do one of two things
     A) in tasks.json change `"{$file}",` to `"hello_world.c", "second_file.c",` 
     B) OR add a make file. (later)
-10) F5 to start the process of making a launch.json? Sure. See video. 
-11) 
+
+10) F5 to start the process of making a launch.json? Sure. See video.
+
+11) make some small edits to launch.json, especially `"preLaunchTask": "C/C++: clang build active file"`
