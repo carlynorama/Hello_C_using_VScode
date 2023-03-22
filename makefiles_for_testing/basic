@@ -1,3 +1,8 @@
+# Always compiles everything.
+
+#none of the calls are file names, so lets keep make from getting confused.
+.PHONY: clean simple verbose
+
 # `make` or `make simple` will complile the files into output file after -o
 simple: hello_world.c second_file.c
 	clang hello_world.c second_file.c -o bin/hello_world
@@ -5,3 +10,7 @@ simple: hello_world.c second_file.c
 # `make verbose` will complile the files with -g (debugging information) and -Wall (compiler warnings)	
 verbose: hello_world.c second_file.c
 	clang -g -Wall hello_world.c second_file.c  -o bin/hello_world
+
+# `make clean` removes contents of bin folder, there isn't a "clean"
+clean:
+	rm -rf bin/*

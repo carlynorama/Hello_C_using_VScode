@@ -1,0 +1,15 @@
+all: hello_world
+
+# compiles main program
+hello_world: hello_world.c second_file.o
+	clang -g -Wall hello_world.c bin/second_file.o -o bin/hello_world
+
+# will compile second file if needed
+second_file.o: second_file.c second_file.h
+	clang -g -Wall -c second_file.c -o bin/second_file.o
+
+# `make clean` removes contents of bin folder
+# run even if there is a file called clean
+.PHONY: clean
+clean:
+	rm -rf bin/*

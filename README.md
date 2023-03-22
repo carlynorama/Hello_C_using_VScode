@@ -5,10 +5,14 @@ Project for learning how to configure VSCode to work with C
 
 ## References 
 
-- https://code.visualstudio.com/docs/cpp/config-clang-mac
-- Visual Studio Code for C/C++ on Linux (2021) https://www.youtube.com/watch?v=9pjBseGfEPU
-- https://stackoverflow.com/questions/52770066/debugging-c-using-visual-studio-code-on-windows 
-- https://code.visualstudio.com/docs/editor/variables-reference
+- About VSCode & C/C++
+    - https://code.visualstudio.com/docs/cpp/config-clang-mac
+    - Visual Studio Code for C/C++ on Linux (2021) https://www.youtube.com/watch?v=9pjBseGfEPU
+    - https://stackoverflow.com/questions/52770066/debugging-c-using-visual-studio-code-on-windows 
+    - https://code.visualstudio.com/docs/editor/variables-reference
+- About makefiles: 
+    - https://bytes.usc.edu/cs104/wiki/makefile/ 
+    - https://cs.colby.edu/maxwell/courses/tutorials/maketutor/
 
 
 
@@ -49,3 +53,5 @@ clang hello_world.c second_file.c
 ---
 
 12) create a test makefile (see `makefile-test` rename as `makefile`), run `make` and `make clean` to confirm make is installed and working.
+
+13) create simple makefile for 2 file project
