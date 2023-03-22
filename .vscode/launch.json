@@ -4,13 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
             "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
             //change this line to match tasks.json
-            "program": "${fileDirname}/bin/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/bin/hello_world",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

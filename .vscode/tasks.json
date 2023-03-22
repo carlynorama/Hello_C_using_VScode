@@ -30,7 +30,7 @@
             "label": "Build using make",
             "command": "make",
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${workspaceFolder}"
             },
             "group": {
                 "kind": "build",
