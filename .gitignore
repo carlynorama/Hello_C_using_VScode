@@ -1,9 +1,14 @@
 .DS_Store
 
-hello
-/*.dSYM
-/.vscode
+#name of compiled program
+hello_world
 
+/*.dSYM
+*.out
+/bin
+
+# in this example, go ahead and show the .vscode folder
+#/.vscode
 
 
 # C/C++ Files object files 
